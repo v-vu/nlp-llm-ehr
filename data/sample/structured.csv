@@ -1,0 +1,6 @@
+patient_id,discharge_date,readmit_30d,anc,wbc,hemoglobin,platelets,creatinine,alt,ast,los_days,prior_30d_admits,transfusion_count,infection_count,age,sex,race,ethnicity,insurance,chemo_regimen,discharge_dayofweek
+P001,2025-06-01,1,200,12.1,8.2,45,1.1,30,28,9,1,2,1,63,M,White,Non-Hispanic,Medicare,7+3,Mon
+P002,2025-06-03,0,900,6.4,9.9,120,0.8,22,20,7,0,0,0,55,F,White,Non-Hispanic,Commercial,Consolidation,Wed
+P003,2025-06-05,1,300,10.2,7.1,38,1.2,40,33,12,2,3,1,71,M,Black,Non-Hispanic,Medicare,Hi-DAC,Fri
+P004,2025-06-06,0,1200,5.8,10.4,150,0.9,18,19,6,0,0,0,48,F,Asian,Non-Hispanic,Commercial,Maintenance,Thu
+P005,2025-06-08,0,800,7.3,9.2,110,1.0,25,21,8,0,1,0,60,M,Other,Hispanic,Medicaid,Consolidation,Tue

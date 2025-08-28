@@ -1,0 +1,48 @@
+{
+  "numeric_cols": [
+    "anc",
+    "wbc",
+    "hemoglobin",
+    "platelets",
+    "creatinine",
+    "alt",
+    "ast",
+    "los_days",
+    "prior_30d_admits",
+    "transfusion_count",
+    "infection_count",
+    "age"
+  ],
+  "categorical_cols": [
+    "sex",
+    "race",
+    "ethnicity",
+    "insurance",
+    "chemo_regimen",
+    "discharge_dayofweek"
+  ],
+  "text_col": "note_text",
+  "extracted_fields": [
+    "mrd_status",
+    "blasts_percent",
+    "neutropenic_fever",
+    "sepsis",
+    "mucositis",
+    "central_line",
+    "discharge_disposition",
+    "chemo_intensity",
+    "planned_readmission",
+    "followup_within_7d",
+    "social_support",
+    "med_nonadherence"
+  ],
+  "cv_stats": {
+    "cv_auroc_mean": 1.0,
+    "cv_auroc_std": 0.0,
+    "cv_auprc_mean": 1.0,
+    "cv_auprc_std": 0.0,
+    "cv_brier_mean": 0.04975140755777983,
+    "cv_brier_std": 0.014247655456163168,
+    "suggested_threshold": 0.8437016670987321
+  }
+}
